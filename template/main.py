@@ -5,8 +5,8 @@ def main():
     pass
 
 
-def KMP(input_string, target):
-    
+def solve():
+    pass
 
 
 if __name__ == "__main__":
