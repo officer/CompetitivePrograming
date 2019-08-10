@@ -1,12 +1,11 @@
 # Binary Indexed Tree
 # Reference http://hos.ac/slides/20140319_bit.pdf
-class BIT():
+class BIT:
     def __init__(self, size):
         self.bits = [0 for i in range(size+1)]
         self.size = size
 
-
-    def update(self, index, value):
+    def update(self, index, value = 1):
         index += 1
         while index <= self.size:
             self.bits[index] += value
