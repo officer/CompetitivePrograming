@@ -11,4 +11,4 @@ def solve(N, M):
 
 
 if __name__ == "__main__":
-    solve()
+    solve(2, 3)
