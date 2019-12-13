@@ -1,13 +1,24 @@
+import sys, os
+import collections
 
-import sys
+MOD = 10 ** 9 + 7
 
-def main():
-    pass
+def solve(input_stream):
+  a = read_int(input_stream)
+  s = input_stream.readline().strip()
+  if a < 3200:
+    return [str("red")]
+  else:
+    return [s]
 
+def read_ints(input_stream):
+  return [i for i in map(int, input_stream.readline().strip().split())]
 
-def solve():
-    pass
+def read_int(input_stream):
+  return int(input_stream.readline().strip())
 
 
 if __name__ == "__main__":
-    main()
+    outputs = solve(sys.stdin)
+    for line in outputs:
+      print(line)
