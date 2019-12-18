@@ -107,4 +107,4 @@ venv.bak/
 
 
 # c++
-a.out
+**/a.out

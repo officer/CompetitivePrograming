@@ -1,3 +1,8 @@
 {
-    "python.pythonPath": "/Users/kasaiso/Desktop/Hobby/CompetitiveProgramingENV/bin/python3"
+    "python.pythonPath": "/Users/kasaiso/Desktop/Hobby/CompetitiveProgramingENV/bin/python3",
+    "files.associations": {
+        "utility": "cpp",
+        "ostream": "cpp",
+        "iostream": "cpp"
+    }
 }
