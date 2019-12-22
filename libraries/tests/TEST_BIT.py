@@ -5,4 +5,9 @@ def test_border():
     bit = BIT(8)
     for i in range(8):
         bit.update(i)
+    assert bit.sum(1) == 1
+
+
+
+
 
