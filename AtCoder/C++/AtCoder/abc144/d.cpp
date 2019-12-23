@@ -15,5 +15,10 @@ using namespace std;
 typedef long long ll;
 
 int main(){
+    double length,height,x;
+    cin >> length >> height >> x;
+    double bottom = x/height;
+    printf("%.7f\n", atan(height/bottom) * 180/ M_PI);
+    
 
 }
