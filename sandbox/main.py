@@ -2,11 +2,27 @@ import sys, os
 import collections
 
 
+def count(n):
+  count = 0
+  while True:
+    if n % 10 != 0:
+      break
+    n /= 10
+    count += 1
+  return count
+
+def check(n):
+  divisor = 2
+  while n % divisor == 0:
+    divisor *= 2
+  return divisor
+
+
 def solve(input_stream):
-    print( 8 >> 2)
-    print( 1 << 2)
-
-
+  temp = 50
+  for i in range(10):
+    print("Count: %d  Divisor -> %d" % (count(temp*(temp-2)), check(temp-2)))
+    temp *= 5
 
 def read_ints(input_stream):
   return  map(int, input_stream.readline().strip().split())

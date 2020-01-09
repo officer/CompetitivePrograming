@@ -3,6 +3,10 @@
     "files.associations": {
         "utility": "cpp",
         "ostream": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "__node_handle": "cpp",
+        "algorithm": "cpp",
+        "ios": "cpp",
+        "string": "cpp"
     }
 }
